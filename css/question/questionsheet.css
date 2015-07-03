@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2014, 8:17:20 PM
+    Author     : Uche
+*/
+h3{
+    color: #20742e;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.questions-holder{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 250px;
+}
+
+.ques-form{
+    width: 800px;
+}
+
+.question{
+     margin-bottom: 03.00525920360631%; /*40px;*/
+}
+
+.opt-holder{
+    width: 100%;
+    margin-bottom: 00.75131480090158%; /*10px;*/
+}
+
+input[type=radio].css-checkbox {
+    position:absolute;
+    z-index:-1000; 
+    left:-1000px; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; width:1px; 
+    margin:-1px; padding:0; border:0;
+   
+}
+
+input[type=radio].css-checkbox + label.css-label {
+                    padding-left:23px;
+                    height:18px; 
+                    display:inline-block;
+                    line-height:18px;
+                    background-repeat:no-repeat;
+                    background-position: 0 0;
+                    font-size: 80%;
+                    font-weight: 700;
+                    vertical-align:middle;
+                    cursor:pointer;
+                   
+                  
+
+            }
+
+input[type=radio].css-checkbox:checked +  label.css-label{
+        background-position: 0 -18px;
+}
+
+label.css-label {
+        background-image:url(http://localhost/malaria_camp/img/radio_img.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+.radio-listDiv{
+    background: whitesmoke;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    border-bottom:  0px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.radio-listDiv:hover{
+    cursor: pointer;
+    background:  #dddddd;
+}
+
+button{
+    width: 40%;
+    padding: 10px;
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 01.51314800901578%; /*100px;*/
+    border:  1px solid rgba(0, 0, 0, 0.1);
+}
+
+button span{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+    
+    position: relative;
+    bottom: 5px;
+  
+}
+button:hover{
+    cursor: pointer;
+    background:  #d7d7d7;
+}
+
+button img{
+    width: 0.5; /*100px;*/
+   
+    min-width: 10px;
+}
+
+button.prev img{
+    position: relative;
+    right: 40%;
+    top: 2px;
+}
+
+button.next img{
+    position: relative;
+    left: 40%;
+    top: 2px;
+}
+
+button.prev{
+    margin-left: 02.95131480090158%; /*-10px;*/
+    margin-right: 12.53944402704733%; /*300px;*/
+}
+
+
+
+.info-footer{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.info-slog{
+    color: green;
+    font-size: 0.6875em; /*11px;*/
+    font-weight: 700;
+
+}
+
+
+
+.info-footer ul li{
+    display: inline-block;
+}
+
+.info-footer ul li img{
+    width: 01.75657400450789em; /*50px;*/
+}
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+    .wrapper{
+        width: 100%;
+    }
+    .questions-holder{
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        top: 150px;
+    }
+    
+   
+    
+    .ques-form{
+        width: 100%;
+    }
+    .question{
+       font-size: 98%;
+       margin-left: 20px;
+    }
+
+   .opt-holder{
+      width: 100%; /*10px;*/
+      font-size: 95%;
+    }
+    
+    .info-footer{
+        width: 100%;
+        position: relative;
+        top: 165px;
+        right: 32px;
+    }
+    .info-slog{
+        font-size: 70%; /*11px;*/
+
+    }
+
+    input[type=radio].css-checkbox + label.css-label {
+            font-size: 70%;
+   }
+   
+   .radio-listDiv{
+        padding-bottom: 18px;
+        padding-top: 18px;
+
+    }
+    
+    button.prev img{
+        position: relative;
+        right: 25%;
+        top: 2px;
+    }
+
+    button.next img{
+        position: relative;
+        left: 25%;
+        top: 2px;
+    }
+}

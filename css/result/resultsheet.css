@@ -1,0 +1,266 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2014, 3:39:26 AM
+    Author     : Uche
+*/
+
+
+header.resultheader{
+    width: 100%;
+    height: 200px;
+}
+
+header.resultheader img{
+   width: 100%;
+   height: 200px;
+}
+
+.nav-home-home{
+    position: relative;
+    top: 200px;
+}
+
+.nav-home-home ul{
+    
+}
+
+.nav-home-home ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.nav-home-home ul li a{
+    font-weight: 700;
+    color: darkgreen; 
+    font-size: 90%;
+    text-decoration: none;
+ 
+}
+
+.nav-home-home ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.socialMed ul li{
+    list-style: none;
+    display: inline-block;
+}
+.socialMed ul li.FB{
+    width: 10%;
+    font-size: 35%;
+    font-weight: 700;
+    background: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+    margin-right: 20px;
+}
+
+.socialMed ul li.TWT{
+    width: 10%;
+    font-size: 38%;
+    font-weight: 700;
+    background: #4099FF;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-decoration: none;
+   
+ 
+}
+
+.socialMed ul li:hover{
+    cursor: pointer;
+    
+}
+.socialMed{
+    position: relative;
+    right: 2%;
+}
+
+.result_holder{
+    text-align: center;
+    width: 100%;
+    height: 455px;
+    background: white;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 31%;
+
+    
+}
+
+.result-answer{
+    color:  black; /*#c2d533*/
+    font-size: 250%;
+    margin-top: 00.75131480090158em;
+}
+
+
+.slog{
+    color: darkgreen; 
+    font-size: 130%; 
+    font-weight: 700; 
+    margin-top: 40px; 
+    margin-bottom: 20px;
+}
+
+
+.result_holder img.det{
+    width: 40%;
+    height: 178px;
+    min-width: 300px;
+}
+
+.websiteling{
+   color: grey; 
+   font-size: 70% /*23px;*/
+       
+}
+.websiteling a{
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 100%;
+}
+
+.test{
+    width: 50%; 
+    position: relative;
+    left: 23%;
+}
+
+
+.test ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.test ul li img{
+    width: 70%;
+   
+}
+
+.info-footer{
+    width: 100%;
+    text-align: center;
+}
+
+.info-footer ul{
+    position: relative;
+    left: -02.25394440270473%; /*-30px;*/
+    top: 10px;
+}
+
+.info-footer ul li{
+    display: inline-block;
+}
+
+.info-footer ul li img{
+    width: 02.75657400450789em; /*50px;*/
+    max-width: 30px;
+}
+
+
+@media only screen and (min-width: 160px) and (max-width: 600px){
+    .result_holder{
+        position: absolute;
+        top: 18%;
+
+
+    }
+    
+    header.resultheader img{
+        width: 100%;
+        height: 130px;
+        
+        min-width: 600px;
+    }
+ 
+    .nav-home-home{
+        position: relative;
+        top: 120px;
+        text-align: center;
+    }
+
+    .nav-home-home ul li a{
+        font-size: 90%;
+    }
+    
+    .result-answer{
+        font-size: 150%;
+        position: relative;
+        top: 50px;
+    }
+    .socialMed ul{
+        margin: 0 auto;
+        position: relative;
+        right: 25px;
+        
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .socialMed ul li{
+        list-style: none;
+        display: block;
+    }
+    .socialMed ul li.FB{
+        width: 100%;
+        font-size: 50%;
+    }
+    .socialMed ul li.TWT{
+        width: 100%;
+        font-size: 50%;
+        margin-top: 10px;
+    }
+    
+    .slog{
+        font-size: 80%;
+        margin-top: 60px;
+    }
+    
+    .test{
+        margin: 0 auto;
+        width: 100%; 
+        position: relative;
+        left: -20px;
+    }
+
+
+    .test ul li{
+        list-style: none;
+        display: inline;
+
+    }
+    .test ul li img{
+        width: 45%;
+
+    }
+    .websiteling{
+      position: relative;
+      bottom: 10px;
+   }
+   
+   .info-footer{
+       position: relative;
+       bottom: 20px;
+       right: 20px;
+    }
+   
+}

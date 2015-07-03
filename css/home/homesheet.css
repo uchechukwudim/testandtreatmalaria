@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2014, 2:10:47 AM
+    Author     : Uche
+*/
+.nav-home-home{
+    position: relative;
+    top: 0px;
+    left: -400px;
+}
+
+.nav-home-home ul{
+    
+}
+
+.nav-home-home ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.nav-home-home ul li a{
+    font-weight: 700;
+    color: darkgreen; 
+    font-size: 90%;
+    text-decoration: none;
+ 
+}
+
+.nav-home-home ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-header-image{
+    width: 100%;
+    height: 300px;
+    background: url(http://localhost/malaria_camp/img/backgr.png);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.home-header-image img{
+    width: 100%;
+    height: 447px
+}
+
+
+.home-info{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    top: 67%;
+    left: 0px;
+}
+
+.home-info span{
+    color: black;
+    font-size: 80%; /*23px;*/
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+    
+}
+.home-nav.one{
+    margin-top: 0px;
+}
+
+.home-nav a{
+      color: black;
+    font-size: 100%; /*25px*/; 
+     text-decoration: none;
+}
+
+.home-nav{
+    padding: 00.75131480090158%; /*10px;*/ 
+    background:#c2d533; 
+    width: 15.78287002253944%; /*250px;*/ 
+    margin: 0 auto;
+    border-radius: 5px;
+    -moz-border-radius:  5px; /*25px;*/
+    -webkit-border-radius: 5px;
+   
+    margin-top: 1%; /*60px;*/
+   
+
+}
+
+.home-nav:hover{
+    cursor: pointer;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+}
+
+.home-footer{
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+}
+.home-footer span{
+    font-size: 0.7375em; /*15px;*/
+}
+
+.home-footer ul li{
+    display: inline-block;
+}
+
+.home-footer ul{
+    margin-left: -03.3809166040571%; /*-45px;*/
+}
+.home-footer ul li img{
+    width: 01.75657400450789em; /*50px;*/
+}
+
+@media only screen and (min-width : 150px) and (max-width : 600px) {
+ 
+    
+    .home-header-image img{
+        width: 100%;
+        height: 200px
+    }
+    
+    .home-header-image{
+        height: 200px;
+    }
+
+    
+    
+    .nav-home-home{
+        position: relative;
+        top: -10px;
+        left: -128px;
+    }
+    
+    .home-info span{
+        font-size: 100%; /*23px;*/
+        
+    }
+    
+    .home-nav{
+        width: 90%; /*250px;*/ 
+        padding: 10px 0px 10px 0px;
+    }
+    
+        .home-nav.one{
+            margin-bottom: 10px;
+        }
+    
+    .home-info{
+        width: 100%;
+        height: 140px;
+        position: absolute;
+        top: 200px;
+        
+        max-height: 300px;
+    }
+    .home-footer{
+        position: relative;
+        top: 0px;
+    } 
+    
+    .home-footer ul li img{
+        width: 01.75657400450789em; /*50px;*/
+    }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
